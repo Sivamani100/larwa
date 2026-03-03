@@ -1,0 +1,49 @@
+name: larwa
+description: "Larwa AI Call Assistant"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+
+  # Supabase (database + realtime)
+  supabase_flutter: ^2.5.2
+
+  # Local storage
+  hive_flutter: ^1.1.0
+
+  # HTTP
+  http: ^1.2.1
+
+  # Contacts access
+  flutter_contacts: ^1.1.9
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # UI helpers
+  intl: ^0.19.0
+  timeago: ^3.6.1
+  shimmer: ^3.0.0
+  google_fonts: ^6.2.1
+  url_launcher: ^6.2.5
+
+  # Navigation
+  go_router: ^14.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
